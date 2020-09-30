@@ -1,0 +1,615 @@
+body{
+    font-family: 'Kanit', 'El Messiri', sans-serif !important;
+}
+/* ====================================================================
+|   |   |   |   |   |   |   global properties
+Main color :
+          blue color => #1791e5
+===================================================================== */
+.custom-container{
+    position: relative;
+    width: 95%;
+    height: 100%;
+    margin: 0px auto
+}
+.chat-container{
+    position: relative;
+    width: 98%;
+    height: 100%;
+    margin: 0px auto
+}
+.slider-container{
+    position: relative;
+    width: 95%;
+    height: 100%;
+    margin: 0px auto 
+}
+.hidden{
+    display: none !important
+}
+.visibile{
+    display: block !important
+}
+/* ====================================================================
+|   |   |   |   |   |   |  owl-carousel 
+===================================================================== */
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot{
+    font-size: 35px;
+    color: #34c6d3;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    outline: none
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel button.owl-dot:hover{
+    padding-right: 30px;
+    font-size: 35px;
+    color: #1f767e;
+    background-color: #fff;
+}
+.owl-carousel .owl-nav{
+    display: none
+}
+/* ====================================================================
+|   |   |   |   |   |   |  LogIn Page 
+===================================================================== */
+
+
+/* ====================================================================
+|   |   |   |   |   |   |  SignUp Page 
+===================================================================== */
+input, textarea, select, button {
+  color: #333;
+  font-size: 13px; 
+}
+
+p, h1, h2, h3, h4, h5, h6, ul {
+  margin: 0;
+  font-family: 'Kanit', 'El Messiri', sans-serif !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+a:hover {
+  text-decoration: none; }
+
+:focus {
+  outline: none;
+}
+
+body::-webkit-scrollbar {
+  background-color:#6c757d36;
+  width: 7px;
+  right: -10px
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #1791e5;
+  border-radius:8px;
+  right: -10px
+}
+.wrapper {
+  min-height: 100vh;
+  background-image: linear-gradient( to bottom , #1791e53d, #1791e5 );
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper p.title  {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #1791e5;
+}
+.wrapper p.title a{
+  font-size: 30px;
+  color: #1791e5;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.wrapper p.title a:hover{
+  color: #1793e5bb !important;
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  .wrapper p.title a{
+    font-size: 22px;
+
+  }
+}
+.inner {
+  padding: 20px;
+  background: #fff;
+  max-width: 850px;
+  margin: auto;
+  border-radius: 5px;
+  margin: 50px auto;
+}
+.inner .image-holder {
+  width: 50%; 
+  float: right;
+
+}
+.inner form {
+  width: 50%;
+  padding-top: 36px;
+  padding-left: 45px;
+  padding-right: 45px; 
+  margin-top: -20px;
+}
+.inner h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Poppins-SemiBold";
+  text-align: center;
+  margin-bottom: 28px; 
+}
+
+.form-group {
+  display: flex; 
+  margin-bottom: 0px
+}
+.form-group input {
+  width: 50%; 
+}
+.form-group input:first-child {
+  margin-right: 25px; 
+}
+
+.form-wrapper {
+  position: relative; 
+}
+.form-wrapper i {
+  position: absolute;
+  bottom: 9px;
+  right: 0; 
+}
+.form_control {
+  border: 1px solid #333;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  margin-bottom: 25px; 
+}
+.form_control::-webkit-input-placeholder {
+  font-size: 13px;
+  color: #333;
+}
+.form_control::-moz-placeholder {
+  font-size: 13px;
+  color: #333;
+}
+.form_control:-ms-input-placeholder {
+  font-size: 13px;
+  color: #333;
+}
+.form_control:-moz-placeholder {
+  font-size: 13px;
+  color: #333;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  padding-left: 20px;
+}
+select option[value=""][disabled] {
+  display: none;
+}
+
+button {
+  border: none;
+  width: 164px;
+  height: 51px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: #1791e5;
+  font-size: 15px;
+  color: #fff;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  border-radius: 3px;
+
+}
+button i {
+  margin-left: 10px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0); 
+}
+button:hover i, button:focus i, button:active i {
+  -webkit-animation-name: hvr-icon-wobble-horizontal;
+  animation-name: hvr-icon-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px); 
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+   }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); 
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); 
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px); 
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  } 
+}
+@keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px); 
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  }
+@media (max-width: 1199px) {
+  .wrapper {
+    background-position: right center;
+  }
+}
+@media (max-width: 991px) {
+  .inner form {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .inner {
+    display: block;
+  }
+  .inner .image-holder {
+    width: 100%;
+  }
+  .inner form {
+    width: 100%;
+    padding: 40px 0 30px;
+  }
+
+  button {
+    margin-top: 60px;
+  }
+}
+
+.form-wrapper i{
+  color: #1791e5
+}    
+.form_control{
+  border-radius: 0px !important
+}
+.wrapper .error_messege{
+  margin-top: -23px;
+  color: red;
+  font-size: 14px;
+  padding-bottom: 10px;
+
+}
+
+.zmdi-lock{
+  cursor: pointer;
+}
+.wrapper a  {
+  color: #1791e5 !important;
+  padding-top: 15px;
+  font-size: 14;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .wrapper .inner .image-holder{
+    display: none
+  }
+  .inner{
+    width: 80% !important
+  }
+}
+/* ====================================================================
+|   |   |   |   |   |   |  signup-success/failed
+===================================================================== */
+.signup-success-messege{
+  height: 40px;
+  color: #fff;
+  line-height: 40px;
+  font-size: 15px;
+  border-radius: 4px;
+  margin: 0px auto;
+  animation: hide-popup 2s ease-in-out forwards;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #25b23c !important;
+
+}
+.signup-failed-messege{
+  height: 40px;
+  color: #fff;
+  line-height: 40px;
+  font-size: 15px;
+  border-radius: 4px;
+  margin: 0px auto;
+
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #b22525 !important;
+}
+
+.signup-success-messege i{
+  color: #fff !important;
+}
+.signup-success-messege i{
+  color: #fff !important;
+}
+/* ====================================================================
+|   |   |   |   |   |   |  new edition
+===================================================================== */
+.login-page .wrapper .inner{
+  padding: 80px 0;
+}
+
+#register-page .wrapper .inner form > p{
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+#register-page .wrapper .inner form > p i{
+  color: #1791e5;
+}
+.signup-page .wrapper .inner .image-holder img{
+  margin-top: 20%;
+}
+@media(max-width: 768px){
+  .login-page .wrapper .inner {
+    padding: 20px;
+  }
+}
+.wrapper .error_messege{
+  font-size: 14px !important;
+  text-align: left !important;
+  padding-bottom: 10px !important;
+  display: contents;
+}
+.agreement_accepted > input,
+.agreement_accepted > label{
+  display: inline;
+}
+.agreement_accepted > label,
+.remember_me > label{
+  font-size: 11px;
+  color: #767676;
+}
+.agreement_accepted > label a,
+.remember_me > label a{
+  font-size: 10px;
+}
+/* ======checkbox ===== */
+.send_money{
+  padding-bottom: 30px 
+}
+.send_money input{
+
+  transition: all 0.5s ease-in-out
+}
+input[type=checkbox] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+input[type=checkbox] {
+  display: none;
+}
+input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1.6em;
+  height: 1.6em;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: #1791e5;
+  border-color: #1791e5;
+  color: #fff;
+}
+
+input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #1791e5;
+  border-color: #1791e5;
+}
+
+/* ====================================================================
+|   |   |   |   |   |   |  new edition
+===================================================================== */
+.copyright{
+  padding: 15px;
+  background-color: #000000e3;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+/* ====================================================================
+|   |   |   |   |   |   |  toggle choose acount type
+===================================================================== */
+
+.signup-page .wrapper .inner .container .custom-head{
+  font-weight: bolder;
+  font-size: 14px;
+}
+.signup-page .wrapper .inner .accout-type .title{
+  text-align: left;
+  color: #000;
+  font-weight: bolder;
+
+}
+.signup-page .wrapper .inner .accout-type .btn{
+  margin-bottom: 20px;
+  background-color: #1791e5;
+  outline: none;
+  border: none;
+  border: none;
+  width: 164px;
+  height: 51px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ========= radio checkbox ====== */
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.container p {
+  font-size: 14px;
+}
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 4px;
+  height: 4px;
+	border-radius: 50%;
+	background: white;
+}
+.vertification_error{
+  color: #fff;
+  background-color: #e01a2e;
+  padding: 10px !important;
+  font-size: 14px !important;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.vertification_error i {
+  color: #fff !important;
+}

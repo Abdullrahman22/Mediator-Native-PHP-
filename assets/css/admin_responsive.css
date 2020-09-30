@@ -1,0 +1,32 @@
+/* ====================================================================
+|   |   |   |   |   |   |  global properties
+===================================================================== */
+
+@media( min-width: 991px){
+   
+    #exchange-page .panel{
+        width: 60%;
+ 
+    }
+}
+/* ====================================================================
+|   |   |   |   |   |   |  payment page
+===================================================================== */
+@media( max-width: 991px){
+    #payments-page .add-payment .inner{
+        width: 60%;
+    }
+
+}
+@media( max-width: 767px){
+    .#payments-page .add-payment{
+        width: 120%;
+    }
+    #payments-page .add-payment .inner{
+        width: 90%;
+        margin: 20px auto;
+    }
+    #payments-page .add-payment .inner .upload-input{
+        width: 80%;
+    }
+}

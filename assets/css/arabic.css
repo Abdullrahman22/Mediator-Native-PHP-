@@ -1,0 +1,130 @@
+body , p , h1, h2, h3, h4, h5, h6 , a ,span { 
+    font-family: 'Cairo', sans-serif !important;
+}
+.dot{
+    font-size: 14px;
+}
+.counting-amount h6 .minimum, 
+.counting-amount h6 .maximum{
+    float: right;
+    padding-right: 20px;
+}
+.form-control{
+    text-align: right !important;
+}
+#exchange-step2 .form-content{
+    text-align: right !important;
+}
+#exchange-step2 span.notify-user,
+#exchange-step2 span.notify-done{
+    top: 36% !important;
+}
+#exchange-step2 .search-input img{
+    left: 50px;
+}
+#exchange-step3 .form-content{
+    text-align: right !important;
+}
+#exchange-step3 .complete-step .upload-input{
+    text-align: right !important;
+}
+#exchange-step3 .complete-step .upload-input label{
+    float: right;
+    padding-right: 20px;
+}
+.combostar-star{
+    padding: 5px 25px 0px 15px !important;
+}
+#transfer-done{
+    text-align: right !important;
+}
+#transfer-done textarea{
+    margin-left: auto;
+}
+.products .product-card .price >span.text{
+    float: left;
+}
+#view-page span.text{
+    float: left;
+}
+.products .product-card .buttons{
+    display: flex;
+}
+.buttons{
+    overflow: unset
+}
+.request-text {
+    text-align: right;
+}
+.request-text .bold{
+    float: right;
+    padding: 0px 5px;
+}
+.request-text .bold i {
+    float: right !important;
+    padding: 0px 5px;
+}
+#payment-request .complete-step .desc p{
+    text-align: right;
+}
+#payment-request .complete-step .form-content{
+    text-align: right; 
+}
+#payment-request .form-content .form-control{
+    margin-left: auto;
+}
+#payment-request .complete-step .upload-input label{
+    float: right;
+    padding-right: 20px;
+}
+#payment-request .complete-step .upload-input {
+    width: auto; 
+    text-align: right !important;
+}
+#purchase-page .form-content select.form-control{
+    padding: 0.1rem 0.75rem;
+}
+#purchase-page .complete-step .desc p{
+    text-align: right;
+}
+#purchase-page .complete-step .form-content{
+    text-align: right;
+}
+#purchase-page .form-content .form-control{
+    margin-left: auto;
+}
+#purchase-page .complete-step .upload-input{
+    margin-left: auto;
+}
+.complete-step .upload-input label{
+    padding: 7px 15px;
+}
+#profile-page .left-section span.bold.text{
+    float: left;
+}
+#profile-page .form-group{
+    text-align: right;
+}
+#profile-page .popup-form .inner .upload-input{
+    margin-left: auto;
+    text-align: right;
+}
+#profile-page .popup-form .inner button{
+    float: left;
+}
+#profile-page .popup-form select{
+    padding: 4px;
+
+}
+#profile-page .popup-form{
+    text-align: right;
+}
+#terms , #privacy{
+    text-align: right;
+}
+.products .status{
+    margin-right: 10%;
+}
+
+
+

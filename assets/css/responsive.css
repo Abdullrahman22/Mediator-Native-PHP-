@@ -1,0 +1,241 @@
+
+/* ====================================================================
+|   |   |   |   |   |   |   navbar responsive
+===================================================================== */
+@media (max-width:991px) {
+    nav.navbar{
+        width: 100%;
+    }
+    .navbar .nav-item .text{
+        display: contents;
+    }
+    .navbar .nav-item i{
+        margin-right: 20px;
+    }
+    nav.navbar .dropdown-menu {
+        padding: 0px;
+        position: relative;
+    }
+    .dropdown-menu.bell{
+        left: 0px;
+    }
+}
+@media  (max-width:575px) {
+    nav.navbar .search-group input{
+        width: 220px;
+    }
+}
+/* ====================================================================
+|   |   |   |   |   |   |   index Page
+===================================================================== */
+@media  (max-width:767px) {
+    #home .home-heading{
+        width: 60%;
+        font-size: 22px;
+    }
+    #home .products .product-card{
+        width: 250px;
+        margin: 10px 5px;
+    }
+    #testmonials blockquote{
+        padding: 5px 50px;
+    }
+    #testmonials blockquote::before{
+        left: 20px;
+    }
+    #testmonials blockquote::after{
+        right: 20px;
+    }
+}
+@media  (max-width:575px) {
+    #home .home-heading{
+        width: 80%;
+        font-size: 22px;
+    }
+    #home .products .product-card{
+        margin-left: calc( 50% - 125px )
+    }
+}
+/* ====================================================================
+|   |   |   |   |   |   |   Steps links
+===================================================================== */
+@media  (max-width:575px) {
+    .links{
+        width: 125%;
+        padding: 0 0;
+        right: 13%;
+    }
+}
+/* ====================================================================
+|   |   |   |   |   |   |   Green lines
+===================================================================== */
+@media(max-width:767px){
+    .lined p {
+        font-size: 22px;
+    }
+    #exchange-step3 .complete-step .waiting{
+        font-size: 20px;
+    }
+}
+@media  (max-width:575px) {
+    .lined .line-div{
+        width: 15%;
+    }
+}
+/* ====================================================================
+|   |   |   |   |   |   |   steps pages
+===================================================================== */
+@media (max-width:991px) {
+    #page-content{
+        padding: 40px 0px !important ;
+    }
+    .info-content{
+        float: none !important;
+        width: 100% !important;
+        margin-top: 40px !important;
+    }
+    .complete-step{
+        margin-top: 40px !important;
+        float: none !important;
+        width: 100% !important;
+    }
+    #my-transfer .statistics{
+        margin-top: 60px;
+    }
+}
+@media  (max-width:575px) {
+    #exchange-step2 .form-content{
+        width: 100%;
+    }
+}
+/* ====================================================================
+|   |   |   |   |   |   |   transfer done page
+=====================================================================*/
+@media  (max-width:575px) {
+    #transfer-done textarea{
+        width: 90%;
+    }
+}
+/* ====================================================================
+|   |   |   |   |   |   |   Profile page
+=====================================================================*/
+@media (max-width:991px) {
+    .content .container{
+        display: block;
+    }
+    .content .timeline {
+        margin-top: 40px;
+        margin-left: 0px
+    }
+    #profile-page .popup-form .inner{
+        width: 70%;
+    }
+}
+@media(max-width:767px){
+    #profile-page .popup-form .inner{
+        width: 90%;
+    }
+}
+@media  (max-width:575px) {
+    #profile-page .products .product-card{
+        margin-left: 25%;
+    }
+}
+/* ====================================================================
+|   |   |   |   |   |   |   Category Page
+===================================================================== */
+@media (max-width:991px) {
+    #category-page .fixed-menu{
+        position: relative;
+        width: 240px;
+        float: none;
+    }
+    #category-page .fixed-menu .inner{
+        position: relative;
+        width: 100%;
+    }
+    #category-page .cards-content{
+        width: 100%;
+        float: none;
+    }
+}
+@media  (max-width:575px) {
+    #category-page .products .product-card{
+        margin-left: 25%;
+    }
+}
+/* ====================================================================
+|   |   |   |   |   |   |   mytransfers Page
+===================================================================== */
+@media (max-width:767px){
+    
+    #my-transfer .table th, #my-transfer .table td {
+        min-width: 125px; 
+    }
+    #my-transfer table td.status{
+        min-width: 145px; 
+    }
+    #my-transfer table .transfer-info{
+        right: -5%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================================================================
+|   |   |   |   |   |   |   Extra larg
+===================================================================== */
+@media(min-width:1200px){
+
+
+
+}
+/* ====================================================================
+|   |   |   |   |   |   |   larg-screen
+===================================================================== */
+@media (min-width:992px) and (max-width:1199px) {
+
+}
+/* ====================================================================
+|   |   |   |   |   |   |   medium-screen
+===================================================================== */
+@media   (max-width:991px){
+
+
+}
+/* ====================================================================
+|   |   |   |   |   |   |   small 
+===================================================================== */
+@media (min-width:576px) and (max-width:767px){
+    
+
+
+}
+/* ====================================================================
+|   |   |   |   |   |   |   small 
+===================================================================== */
+@media  (max-width:575px) {
+
+}
